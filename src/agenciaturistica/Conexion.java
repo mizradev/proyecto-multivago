@@ -45,7 +45,7 @@ public class Conexion {
             System.out.println(ex.getMessage());
             JOptionPane.showMessageDialog(null, "Error borrando el registro especificado", ".:.Error.:.", 0);
         }
-    }
+}
 
     public static void Select(String tabla) {
         try {
