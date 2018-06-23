@@ -16,7 +16,7 @@ public class Conexion {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             VCon = DriverManager.getConnection("jdbc:mysql://localhost:3306/MultiVagos", "root", "");
-            JOptionPane.showMessageDialog(null, "Conexion Exitosa!!!", ".:.Éxito.:.", 1);
+            JOptionPane.showMessageDialog(null, "Conexion Exitosa", ".: Éxito :.", 1);
         } catch (ClassNotFoundException e) {
             JOptionPane.showMessageDialog(null, e.toString());
             e.printStackTrace();
